@@ -129,7 +129,7 @@ h2 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 2px;
-}HSVFX
+}
 h3 {
     font-size: var(--h3-size);
     font-family: 'Roboto Slab', serif;
@@ -281,7 +281,7 @@ header > .row {
 header > .row > h1 {
     color: #fff;
     font-size: 100px;
-    margin: 15px 0 30px;
+    margin: 15px 0 0;
 }
     @media (max-width: 1200px){
 
@@ -289,44 +289,30 @@ header > .row > h1 {
     @media (max-width: 700px){
 
     }
-
-
-header ul li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    margin: 0 10px;
-    color:#fff;
+header > .row > img.your_door {
+    width: 500px;
+    margin-bottom: 40px;
 }
-    @media (max-width: 600px){
-        header ul li {
-            justify-content: center;
-        }
-    }
-
-header .row.small ul li a{
-    color: #ffffff;
-
-}
-
-header .row.full ul li a, section#boxes .content_blue .elements{
-    color: var(--dark-purple-ada)!important;
+header > .row > img.howworks {
+    transform: translateX(-6px);
+    margin-bottom: 40px;
 }
 
 .reduceMotionBtn{
   font-size: 0.8em;
 }
 
-header > .row > .logo img:hover,
-header > .row > .logo img:focus {
+header > .row > img:hover,
+header > .row > img:focus {
     transform: scale(1.05);
     cursor: pointer;
 }
 
+main {
+    width: 100%;
+    max-width: 1199px;
+    margin: 0 auto;
+}
 section:not(#main){
     display: flex;
     flex-direction: column;

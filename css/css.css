@@ -16,7 +16,7 @@
     --main-black: #000000;
 
     --h1-size: 40px;
-    --h2-size: 32px;
+    --h2-size: 40px;
     --h2-color: #D64300;
     --h3-size: 18px;
     --h4-size: 14px;
@@ -161,6 +161,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.5px;
     margin: 0;
+    padding-top: 1em;
 }
 p span {
     display: block;

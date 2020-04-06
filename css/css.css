@@ -348,11 +348,11 @@ section:after{
 }
 
 section .left{
-  flex-basis: 40%;
+  flex-basis: 33%;
 }
 
 section .right{
-  flex-basis: 60%;
+  flex-basis: 66%;
 }
 
 

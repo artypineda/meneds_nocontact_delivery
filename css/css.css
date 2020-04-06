@@ -334,6 +334,16 @@ section{
     display: flex;
     flex-direction: row;
 }
+section:after{
+  display:block;
+  content:"";
+  width: 80%;
+  height: 1px;
+  border-bottom: 1px solid red;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .left {
     padding: 25px 25px 25px 0;

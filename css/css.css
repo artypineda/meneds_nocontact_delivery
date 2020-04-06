@@ -334,7 +334,7 @@ section{
     display: flex;
     flex-direction: row;
 }
-section:after{
+.section-border{
   display:block;
   content:"";
   width: 80%;

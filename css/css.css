@@ -339,19 +339,14 @@ section{
 }
 
 section:after{
-  flex-basis:100%;
   display:block;
   content:"";
   width: 80%;
   height: 1px;
   border-bottom: 1px solid var(--men-red);
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-section .left{
-  flex-basis: 33%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 section .right{

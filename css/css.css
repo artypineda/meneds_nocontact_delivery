@@ -347,6 +347,11 @@ section:after{
   margin-bottom: 30px;
 }
 
+section .left, section .right{
+  flex: 0 1 auto;
+}
+
+
 .left {
     padding: 25px 25px 25px 0;
 }

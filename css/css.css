@@ -333,8 +333,10 @@ main {
 section{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
 }
-.section-border{
+section:after{
+  flex-basis:100%;
   display:block;
   content:"";
   width: 80%;

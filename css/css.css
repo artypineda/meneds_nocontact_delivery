@@ -347,8 +347,12 @@ section:after{
   margin-bottom: 30px;
 }
 
-section .left, section .right{
-  flex: 0 1 auto;
+section .left{
+  flex-basis: 40%;
+}
+
+section .right{
+  flex-basis: 60%;
 }
 
 

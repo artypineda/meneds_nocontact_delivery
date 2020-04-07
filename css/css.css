@@ -338,7 +338,7 @@ section{
     flex-wrap:wrap;
 }
 
-section:after{
+#segment1:after, #segment2:after, #segment3:after{
   display:block;
   content:"";
   width: 80%;
@@ -348,7 +348,8 @@ section:after{
   margin-top: 25px;
   margin-bottom: 25px;
 }
-section#segment4:after{
+
+#segment4:after{
   display:block;
   content:"";
   width: 80%;

@@ -398,6 +398,10 @@ section .right{
   flex-basis: 66%;
 }
 
+section .left{
+  flex: 1;
+}
+
 .left {
     padding: 25px 25px 25px 0;
 }

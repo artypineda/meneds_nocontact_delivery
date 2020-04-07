@@ -402,6 +402,12 @@ section .left{
   flex: 1;
 }
 
+section .left img{
+  min-width: 100px;
+  min-height: 100px;
+  background: #fff;
+}
+
 .left {
     padding: 25px 25px 25px 0;
 }

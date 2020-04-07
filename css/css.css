@@ -399,6 +399,7 @@ section .right{
 }
 
 section .left{
+  -ms-flex: 1; /* IE 10 */
   flex: 1;
 }
 

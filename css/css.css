@@ -301,6 +301,7 @@ header > .row > h1 {
     color: #fff;
     font-size: 100px;
     margin: 15px 0 0;
+    font-weight: 500;
 }
     @media (max-width: 1200px){
 
@@ -382,8 +383,7 @@ section{
 
 .orderbtn:hover{
   background:#000;
-
-
+}
 
 .orderbtn h2{
   margin: 0;

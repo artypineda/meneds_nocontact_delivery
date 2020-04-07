@@ -361,15 +361,23 @@ section{
 }
 
 .ordersection{
+  width: 100%;
   display: flex;
   align-items:center;
-  jusitfy-content:center;
+  justify-content:center;
+
 }
 
 .orderbtn{
   width: 300px;
+  margin: 50px 0;
   background: var(--men-red);
   color:#fff;
+  padding: 0.5em;
+}
+
+.orderbtn h2{
+  margin: 0;
 }
 
 section .right{

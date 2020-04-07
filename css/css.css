@@ -360,6 +360,18 @@ section{
   margin-bottom: 25px;
 }
 
+.ordersection{
+  display: flex;
+  align-items:center;
+  jusitfy-content:center;
+}
+
+.orderbtn{
+  width: 300px;
+  background: var(--men-red);
+  color:#fff;
+}
+
 section .right{
   flex-basis: 66%;
 }
@@ -387,4 +399,5 @@ footer{
 
 footer img{
   max-width:340px;
+  margin: 40px 0;
 }

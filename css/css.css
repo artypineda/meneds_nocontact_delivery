@@ -369,15 +369,19 @@ section{
 }
 
 .orderbtn{
-  width: 300px;
+  width: 340px;
   margin: 50px 0;
   background: var(--men-red);
   color:#fff;
   padding: 0.5em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .orderbtn h2{
   margin: 0;
+  line-height:1em;
 }
 
 section .right{

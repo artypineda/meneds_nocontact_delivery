@@ -403,8 +403,7 @@ section .left{
 }
 
 section .left img{
-  min-width: 100px;
-  min-height: 100px;
+  width:100%;
   background: #fff;
 }
 

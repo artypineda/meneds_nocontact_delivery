@@ -438,6 +438,11 @@ footer img{
     font-size: 64px;
     text-align:center;
   }
+  header{
+    clip-path: polygon(100% 0px, 100% 80%, 50% 90%, 0 80%, 0 0);
+-webkit-clip-path: polygon(100% 0px, 100% 80%, 50% 90%, 0 80%, 0 0);
+-moz-clip-path: polygon(100% 0px, 100% 80%, 50% 90%, 0 80%, 0 0);
+  }
   header .row{
     padding: 30px;
   }

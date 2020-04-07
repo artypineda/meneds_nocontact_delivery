@@ -384,6 +384,10 @@ section{
   line-height:1em;
 }
 
+.orderbtn h2:after{
+  display: none; height: 0;
+}
+
 section .right{
   flex-basis: 66%;
 }

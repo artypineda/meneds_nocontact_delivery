@@ -348,6 +348,9 @@ section:after{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+#segment4:after{
+  border-color:transparent;
+}
 
 section .right{
   flex-basis: 66%;

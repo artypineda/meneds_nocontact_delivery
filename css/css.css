@@ -349,7 +349,14 @@ section:after{
   margin-bottom: 25px;
 }
 section#segment4:after{
-  border-color:transparent;
+  display:block;
+  content:"";
+  width: 80%;
+  height: 1px;
+  border-bottom: 1px solid transparent;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 section .right{

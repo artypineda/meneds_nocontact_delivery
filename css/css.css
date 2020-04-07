@@ -429,4 +429,8 @@ footer img{
   section .right{
     flex-basis: 100%;
   }
+  section .left{
+    flex-basis: 100%;
+    text-align:center;
+  }
 }

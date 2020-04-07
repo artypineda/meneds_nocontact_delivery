@@ -426,7 +426,7 @@ footer img{
   header .row{
     padding: 30px;
   }
-  .right{
+  section .right{
     flex-basis: 100%;
   }
 }
